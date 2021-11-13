@@ -1,0 +1,56 @@
+body
+{
+    background-color: rgb(241, 241, 83);
+}
+
+h1
+{
+    background-color: cornsilk;
+    color: darkblue;
+}
+
+#show_sketches
+{
+    float: right;
+}
+
+p
+{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    margin-top: 60px;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example
+{
+    from
+    {
+        box-shadow: 1px 1px 40px gray;
+    }
+    to
+    {
+        box-shadow: 1px 1px 40px white;
+    }
+}
+
+#copy_right
+{
+    bottom: 0;
+    margin-top: 450px;
+    background-color: lightgoldenrodyellow;
+    color: rgb(13, 57, 255);
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
